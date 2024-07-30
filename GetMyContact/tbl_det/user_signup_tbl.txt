@@ -1,0 +1,7 @@
+user_signup_tbl
+
+username	varchar(30)
+user_phone	varchar(13) 	PK
+user_email	varchar(50) 	UK
+user_password	varchar(20)
+date_of_join	datetime    	current_timestamp()
